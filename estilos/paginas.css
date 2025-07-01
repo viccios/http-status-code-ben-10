@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: Optima, Candara, "Noto Sans", source-sans-pro, sans-serif;
+  font-weight: normal;
+}
+
+.header {
+  padding: 2em;
+}
+
+.header__titulo {
+  margin-bottom: 1em;
+  color: green;
+}
+
+.header__voltar {
+  color: green;
+}
+
+.main {
+  margin: auto;
+  width: 70%;
+}
+
+.main__p {
+  margin-top: 1em;
+  line-height: 1.8rem;
+}
+
+.main__code {
+  padding-inline: 10px;
+  background-color: black;
+  color: white;
+  font-family:
+    ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas,
+    "DejaVu Sans Mono", monospace;
+  font-weight: normal;
+}
+
+.centralizado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__titulo {
+  margin-bottom: 1em;
+}
+
+.main__descricao {
+  margin: 1em 0 1em 0em;
+}
+
+.main__ver-tambem {
+  margin: 0.8em 0 0.8em 0;
+  font-size: 1.4rem;
+}
+
+.main__ver-mais {
+  margin-left: 3em;
+}
+
+.main__ver-mais a {
+  color: green;
+}
+
+.main__fonte {
+  font-size: 1rem;
+  margin: 2em 0 2em 0;
+}
+
+.main__fonte a {
+  color: green;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer p {
+  margin: 1em;
+}
+
+.footer a {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

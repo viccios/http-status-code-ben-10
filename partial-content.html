@@ -1,43 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./estilos/paginas.css" />
     <title>HTTP Status Code Ben 10 | 206 Partial Content</title>
   </head>
   <body>
-    <header>
-      <h1>HTTP Status Code Ben 10</h1>
-      <a href="./index.html">Voltar</a>
+    <header class="header">
+      <h1 class="header__titulo">HTTP Status Code Ben 10</h1>
+      <a href="./index.html" class="header__voltar">
+        <i
+          class="bx bx-arrow-left"
+          style="vertical-align: middle; font-size: 2rem"
+        ></i>
+        Voltar ao início</a
+      >
     </header>
-    <main>
-      <h2>206 Partial Content</h2>
-      <img src="./img/partial-content.jpg" alt="Partial Content" />
-      <h2>Descrição</h2>
-      <p>
+    <main class="main">
+      <div class="centralizado">
+        <h2 class="main__titulo">206 Partial Content</h2>
+        <img
+          src="./img/partial-content.jpg"
+          alt="Partial Content"
+          width="400"
+          height="400"
+          draggable="false"
+        />
+      </div>
+      <h2 class="main__descricao">Descrição</h2>
+      <p class="main__p">
         O código de resposta do status de sucesso
-        <code>206 Partial Content</code> indica que a requisição teve sucesso e
-        o corpo contém a sequência (em bytes) dos dados, como descrito no
-        cabeçalho <code>Range</code> da requisição.
+        <code class="main__code">206 Partial Content</code> indica que a
+        requisição teve sucesso e o corpo contém a sequência (em bytes) dos
+        dados, como descrito no cabeçalho
+        <code class="main__code">Range</code> da requisição.
       </p>
-      <p>
-        Se existe somente uma sequência, o <code>Content-Type</code> de toda a
-        resposta é colocado para o tipo do documento, e o cabeçalho
-        <code>Content-Range</code> é provido.
+      <p class="main__p">
+        Se existe somente uma sequência, o
+        <code class="main__code">Content-Type</code> de toda a resposta é
+        colocado para o tipo do documento, e o cabeçalho
+        <code class="main__code">Content-Range</code> é provido.
       </p>
-      <p>
+      <p class="main__p">
         Se várias sequências são mandadas como resposta, o
-        <code>Content-Type</code> é colocado para
-        <code>multipart/byteranges</code> e cada fragmento cobre uma sequência,
-        com <code>Content-Range</code> e
-        <code>Content-Type</code> descrevendo-os.
+        <code class="main__code">Content-Type</code> é colocado para
+        <code class="main__code">multipart/byteranges</code> e cada fragmento
+        cobre uma sequência, com <code class="main__code">Content-Range</code> e
+        <code class="main__code">Content-Type</code> descrevendo-os.
       </p>
-      <h2>Ver também:</h2>
-      <ul>
+      <h2 class="main__ver-tambem">Ver também:</h2>
+      <ul class="main__ver-mais">
         <li>
           <a href="https://www.rfc-editor.org/rfc/rfc9110#status.206"
             ><code>Spec</code></a
@@ -68,7 +85,7 @@
           >
         </li>
       </ul>
-      <h3>
+      <h3 class="main__fonte">
         Fonte:
         <a
           href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Reference/Status/206"
@@ -76,9 +93,10 @@
         >
       </h3>
     </main>
-    <footer>
+    <footer class="footer">
       <p>
-        Desenvolvido por <i class="bx bx-git-branch"></i>
+        Desenvolvido por
+        <i class="bx bx-git-branch" style="vertical-align: middle"></i>
         <a href="https://github.com/viccios">viccios</a>
       </p>
       <p>
