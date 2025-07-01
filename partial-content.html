@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>HTTP Status Code Ben 10 | 206 Partial Content</title>
+  </head>
+  <body>
+    <header>
+      <h1>HTTP Status Code Ben 10</h1>
+      <a href="./index.html">Voltar</a>
+    </header>
+    <main>
+      <h2>206 Partial Content</h2>
+      <img src="./img/partial-content.jpg" alt="Partial Content" />
+      <h2>Descrição</h2>
+      <p>
+        O código de resposta do status de sucesso
+        <code>206 Partial Content</code> indica que a requisição teve sucesso e
+        o corpo contém a sequência (em bytes) dos dados, como descrito no
+        cabeçalho <code>Range</code> da requisição.
+      </p>
+      <p>
+        Se existe somente uma sequência, o <code>Content-Type</code> de toda a
+        resposta é colocado para o tipo do documento, e o cabeçalho
+        <code>Content-Range</code> é provido.
+      </p>
+      <p>
+        Se várias sequências são mandadas como resposta, o
+        <code>Content-Type</code> é colocado para
+        <code>multipart/byteranges</code> e cada fragmento cobre uma sequência,
+        com <code>Content-Range</code> e
+        <code>Content-Type</code> descrevendo-os.
+      </p>
+      <h2>Ver também:</h2>
+      <ul>
+        <li>
+          <a href="https://www.rfc-editor.org/rfc/rfc9110#status.206"
+            ><code>Spec</code></a
+          >
+        </li>
+        <li>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Range"
+            ><code>If-Range</code></a
+          >
+        </li>
+        <li>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Range"
+            ><code>Range</code></a
+          >
+        </li>
+        <li>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Range"
+            ><code>Content-Range</code></a
+          >
+        </li>
+        <li>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type"
+            ><code>Content-Type</code></a
+          >
+        </li>
+      </ul>
+      <h3>
+        Fonte:
+        <a
+          href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Reference/Status/206"
+          >https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Reference/Status/206</a
+        >
+      </h3>
+    </main>
+    <footer>
+      <p>
+        Desenvolvido por <i class="bx bx-git-branch"></i>
+        <a href="https://github.com/viccios">viccios</a>
+      </p>
+      <p>
+        Inspirado em <a href="https://http.cat/">HTTP Cats</a> e
+        <a href="https://http.dog/">HTTP Status Dogs</a>
+      </p>
+    </footer>
+  </body>
+</html>

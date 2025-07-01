@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: Optima, Candara, "Noto Sans", source-sans-pro, sans-serif;
+  font-weight: normal;
+}
+
+.header {
+  padding: 2em;
+}
+
+.header__titulo {
+  margin-bottom: 1em;
+  color: green;
+}
+
+.uso {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  margin: 1em;
+  padding-inline: 1em;
+  height: 4rem;
+  background-color: #eeeeee;
+  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas,
+    "DejaVu Sans Mono", monospace;
+  font-weight: normal;
+}
+
+.uso__button {
+  padding: 1em;
+  border: none;
+  border-radius: 12px;
+  background-color: green;
+  color: white;
+  transition: 0.2s;
+}
+
+.uso__button:hover {
+  background-color: lightgreen;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.status-cards {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-bottom: 2em;
+}
+
+.status-cards__footer {
+  padding: 0.5em;
+  background-color: green;
+  color: white;
+}
