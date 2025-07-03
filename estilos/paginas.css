@@ -1,3 +1,7 @@
+:root {
+  color-scheme: light dark;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +9,8 @@
 }
 
 body {
+  background-color: light-dark(white, #222222);
+  color: light-dark(black, white);
   font-size: 1.2rem;
   font-family: Optima, Candara, "Noto Sans", source-sans-pro, sans-serif;
   font-weight: normal;
