@@ -39,6 +39,8 @@ body {
     ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas,
     "DejaVu Sans Mono", monospace;
   font-weight: normal;
+  font-size: 1rem;
+  overflow: hidden;
 }
 
 .uso__button {
@@ -86,4 +88,24 @@ body {
   padding: 0.5em;
   background-color: green;
   color: white;
+}
+
+@media (width <= 1286px) {
+  .status-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .status-cards__footer {
+    margin-bottom: 2em;
+  }
+}
+
+@media (width <= 300px) {
+  img {
+    width: 100%;
+    height: 50%;
+  }
 }
