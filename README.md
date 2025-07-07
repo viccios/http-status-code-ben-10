@@ -1,18 +1,23 @@
 # HTTP Status Code Ben 10
+
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## Sumário
+
 - [Sobre](#-sobre)
 - [Como usar](#-como-usar)
 - [Contribuindo](#-contribuindo)
 
 ## 🧠 Sobre
+
 Cópia do site [HTTP Cats](https://http.cat/) (e [HTTP Dogs](https://http.dog/)) com aliens do Ben 10. O site possui uma estrutura simples composta por diversos arquivos HTML estáticos.
 
 ## 💭 Como usar
+
 Clone o repositório e execute em um servidor local usando a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) no Visual Studio Code ou usando o Python com o comando `python -m http.server`.
 
 ## ✍ Contribuindo
+
 O projeto é livre para forks e pull requests. Se quiser colaborar apenas com os memes, pode mandá-los diretamente para mim.
 
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -43,4 +48,4 @@ O projeto é livre para forks e pull requests. Se quiser colaborar apenas com os
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠒⠒⠲⠛⠛⠙⢿⣍⠁⠀⠀⠀⠘⠁⠀⣠⠞⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠳⠤⠤⠤⠬⠤⠞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
-*It's hero time*
+_It's hero time!_

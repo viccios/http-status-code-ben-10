@@ -88,6 +88,8 @@ body {
   padding: 0.5em;
   background-color: green;
   color: white;
+  width: 18.8rem;
+  height: 7rem;
 }
 
 @media (width <= 1286px) {
