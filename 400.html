@@ -9,9 +9,7 @@
     />
     <link rel="stylesheet" href="./estilos/paginas.css" />
     <link rel="shortcut icon" href="./img/favicon.png" type="image/png" />
-    <title>
-      HTTP Status Code Ben 10 | 450 Blocked by Windows Parental Controls
-    </title>
+    <title>HTTP Status Code Ben 10 | 400 Bad Request</title>
   </head>
   <body>
     <header class="header">
@@ -26,45 +24,44 @@
     </header>
     <main class="main">
       <div class="centralizado">
-        <h2 class="main__titulo">450 Blocked by Windows Parental Controls</h2>
+        <h2 class="main__titulo">400 Bad Request</h2>
         <img
-          src="./img/blocked-by-windows-parental-controls.jpg"
-          alt="Blocked by Windows Parental Controls"
+          src="./img/bad-request.png"
+          alt="Bad Request"
           width="400"
           height="400"
           draggable="false"
         />
       </div>
       <h2 class="main__descricao">Descrição</h2>
-      <p class="main__aviso">
-        <i class="bx bx-message-exclamation" style="vertical-align: middle"></i>
-        <strong>Não oficial:</strong> Esse código de status HTTP não é
-        especificado por nenhum RFC.
-      </p>
       <p class="main__p">
-        O código de status de resposta
-        <code class="main__code"
-          >HTTP 450 Blocked by Windows Parental Controls</code
-        >
-        é um código de status HTTP não oficial específico da Microsoft e
-        retornado pelo servidor para indicar que os controles dos pais estão
-        ativados e estão bloqueando o acesso ao recurso solicitado.
+        O código de status de resposta HTTP
+        <code class="main__code">400 Bad Request</code> indica que o servidor
+        não pode ou não irá processar a requisição devido a alguma coisa que foi
+        entendida como um erro do cliente (por exemplo, sintaxe de requisição
+        mal formada, enquadramento de mensagem de requisição inválida ou
+        requisição de roteamento enganosa).
       </p>
-      <p class="main__p">
-        Quando o código de status
-        <code class="main__code">450 Blocked by Windows Parental Controls</code>
-        é recebido, isso significa que o Windows Parental Controls foi ativado e
-        está negando o acesso ao recurso de destino.
+      <p class="main__aviso" style="margin-block: 1em">
+        <i class="bx bx-alert-triangle" style="vertical-align: middle"></i>
+        <strong>Aviso:</strong> O cliente não deve repetir essa requisição sem
+        modificá-la. <br />
       </p>
+
       <h2 class="main__ver-tambem">Ver também:</h2>
       <ul class="main__ver-mais">
         <li>
-          <a href="./418.html"><code>418 I'm a Teapot</code></a>
+          <a href="https://httpwg.org/specs/rfc9110.html#status.400"
+            ><code>Especificação</code></a
+          >
         </li>
       </ul>
       <h3 class="main__fonte">
         Fonte:
-        <a href="https://http.cat/status/450">https://http.cat/status/450</a>
+        <a
+          href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Reference/Status/400"
+          >https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Reference/Status/400</a
+        >
       </h3>
     </main>
     <footer class="footer">
